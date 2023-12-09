@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    margin: 20px auto;
+}
+
+tr{
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+}
+
+#start-buttons, #start-button, #start-button-8, #start-button-10, #start-button-12, #start-button1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#start-button-8, #start-button-10, #start-button-12 , #start-button, #start-button1{
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start-button-8:hover, #start-button-10:hover, #start-button-12:hover, #start-button:hover, #start-button1:hover {
+    background-color: #45a049;
+}
+
+#game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #ddd;
+    cursor: pointer;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-number {
+    /* The styles are now moved to CSS for better organization */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: 'translate(-50%, -50%)';
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#timer {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #4CAF50;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#instructions {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    text-align: center; /* Center-align the text */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.start-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; /* Add margin between buttons */
+}
+
+.start-button:hover {
+    background-color: #45a049;
+}
+.main-content {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px; /* Add padding for some spacing around the content */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column;
+    min-height: 100vh; /* Use at least the full height of the viewport */
+    background-color: #f4f4f4;
+    box-sizing: border-box; /* Include padding in the height calculation */
+}
+
+.salary-table {
+    border-collapse: collapse;
+    margin: 0 auto; /* Auto margins for horizontal centering if not using flexbox */
+}
+
+.salary-table, .salary-table th, .salary-table td {
+    border: 1px solid black;
+}
+
+.salary-table th, .salary-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.salary-table thead {
+    background-color: #ddd;
+}
+
+.salary-table tfoot {
+    font-weight: bold;
+}

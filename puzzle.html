@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <h1>Memory Games</h1>
+    <table align="center">
+        <tr class="start-buttons">
+            <td>
+                <button class="start-button" id="start-button-8-easy" onclick="startGame8('easy')">Start 8 Image Game - Easy</button>
+            </td>
+            <td>
+                <button class="start-button" id="start-button-8-medium" onclick="startGame8('medium')">Start 8 Image Game - Medium</button>
+            </td>
+            <td>
+                <button class="start-button" id="start-button-8-hard" onclick="startGame8('hard')">Start 8 Image Game - Hard</button>
+            </td>
+        </tr>
+        <tr class="start-buttons">
+            <td>
+                <button class="start-button" id="start-button-10-easy" onclick="startGame10('easy')">Start 10 Image Game - Easy</button>
+            </td>
+            <td>
+                <button class="start-button" id="start-button-10-medium" onclick="startGame10('medium')">Start 10 Image Game - Medium</button>
+            </td>
+            <td>
+                <button class="start-button" id="start-button-10-hard" onclick="startGame10('hard')">Start 10 Image Game - Hard</button>
+            </td>
+        </tr>
+        <tr class="start-buttons">
+            <td>
+                <button class="start-button" id="start-button-12-easy" onclick="startGame12('easy')">Start 12 Image Game - Easy</button>
+            </td>
+            <td>
+                <button class="start-button" id="start-button-12-medium" onclick="startGame12('medium')">Start 12 Image Game - Medium</button>
+            </td>
+            <td>
+                <button class="start-button" id="start-button-12-hard" onclick="startGame12('hard')">Start 12 Image Game - Hard</button>
+            </td>
+        </tr>
+    </table>
+
+    <div id="game-container"></div>
+    <div id="timer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
