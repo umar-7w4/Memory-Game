@@ -38,10 +38,6 @@ This Memory Game is an interactive web-based game designed to challenge and impr
 - Introducing a timer and score system.
 - Implementing different themes and image sets.
 
-## Contributing
-
-Contributions, ideas, and feedback are highly appreciated. Please read the `CONTRIBUTING.md` file for guidelines on contributing to this project.
-
 ## License
 
 This project is licensed under the @2023 Umar Mohammad
